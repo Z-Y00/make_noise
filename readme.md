@@ -3,7 +3,13 @@ this script is used to do passively fake searching and hide your personal search
 
 I used the Baidu as an example for Chinese searching, if you are using google, I suggest you to use startpage.com
 
-# Linux script:
+## Linux script:
 ```
+#!/bin/bash
+for line in `cat ./dict/*.txt`
+do
+ wget -q  'https://www.baidu.com/s?ie=UTF-8&wd='$line  -O /dev/null -o /dev/null
+done
+
 
 ```
