@@ -16,3 +16,6 @@ done
 
 
 ```
+## txt list
+https://github.com/citizenlab/chat-censorship/tree/master/wechat
+https://github.com/citizenlab/test-lists
